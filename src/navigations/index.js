@@ -1,11 +1,12 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {SafeAreaView, StyleSheet, Text, View, StatusBar} from 'react-native';
+import DrawerNavigator from './DrawerNavigator';
 
 const AppNavContainer = () => {
   return (
     <NavigationContainer>
-      <StatusBar
+      {/*<StatusBar
         animated={true}
         backgroundColor="#61dafb"
         barStyle={'light-content'}
@@ -14,7 +15,8 @@ const AppNavContainer = () => {
       />
       <SafeAreaView>
         <Text>Hello1234</Text>
-      </SafeAreaView>
+      </SafeAreaView>*/}
+      <DrawerNavigator></DrawerNavigator>
     </NavigationContainer>
   );
 };
